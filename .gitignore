@@ -61,7 +61,8 @@ typings/
 .env
 
 
+*.js
+*.d.ts
 .idea
-
 src
 
