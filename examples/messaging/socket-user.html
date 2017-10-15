@@ -1,0 +1,23 @@
+<html>
+<head>
+<script src="http://ws.noduit.com/socket.io/socket.io.js"></script>
+<script>
+
+    //var socket = io('http://localhost:4031/F5BF-KBID-OALT-PJKZ');
+    var socket = io('http://ws.noduit.com/PYFA-KXT4-ZNEG-G1G9');
+
+    socket.emit('CONDUIT:SUBSCRIBE_TO_CHANNEL', 'home_channel');
+
+    socket.on('event_name',function(data){
+        console.log(data);
+    })
+
+</script>
+
+</head>
+<body>
+
+
+
+</body>
+</html>

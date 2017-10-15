@@ -1,0 +1,10 @@
+{
+  "name": "conduit-examples",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "nf start web"
+  },
+  "dependencies": {
+    "@deepconduit/messaging": "0.0.1"
+  }
+}

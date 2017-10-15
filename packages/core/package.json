@@ -1,0 +1,26 @@
+{
+  "name": "@deepconduit/core",
+  "version": "0.0.1",
+  "description": "Deep Conduit - A robust communication infrastructure, to convey digital content between nodes",
+  "author": "Conduit Team <info@conduit.io>",
+  "license": "MIT",
+  "keywords": [
+    "messaging",
+    "sockets",
+    "conduit",
+    "deep",
+    "deep-conduit",
+    "deepconduit",
+    "communication",
+    "infrastructure",
+    "events",
+    "client"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deepconduit/conduit-node.git"
+  },
+  "dependencies": {
+    "moment-timezone": "0.5.13"
+  }
+}
